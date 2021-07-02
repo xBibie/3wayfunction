@@ -1,10 +1,29 @@
-const sqaured = function (number1, number2){
-    Math.sqrt(number1);
-    Math.sqrt(number2);
-    add (number1,number2);
-    Math.sqrt(result);
+
+//function declaration
+function squareRoot(number1, number2) {
+    const number1Square = number1 * number1;
+    const number2Square = number2 * number2;
+    const sum = number1Square + number2Square;
+    const sumSquare = sum * sum;
+    return sumSquare;
+}
+
+//function expression
+const squareRoot = function(number1, number2) {
+    const number1Square = number1 * number1;
+    const number2Square = number2 * number2;
+    const sum = number1Square + number2Square;
+    const sumSquare = sum * sum;
+    return sumSquare;
 };
-console.log (result);
-const squared = (5, 6)
 
+//Arrow function
+const squareRoot = (number1, number2) => {
+    const number1Square = number1 * number1;
+    const number2Square = number2 * number2;
+    const sum = number1Square + number2Square;
+    const sumSquare = sum * sum;
+    return sumSquare;
+};
 
+squareRoot = (5,6)
